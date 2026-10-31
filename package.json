@@ -1,0 +1,16 @@
+{
+  "name": "masrofi",
+  "version": "1.0.0",
+  "description": "A simple weekly budget and savings tracker for students.",
+  "main": "sw.js",
+  "scripts": {
+    "test": "node tests/step2a-regression.test.mjs && node tests/step2b-logic.test.mjs && node tests/step2b-screen.test.mjs && node tests/months.test.mjs && node tests/months-screen.test.mjs && node tests/home-weekly.test.mjs && node tests/profile.test.mjs && node tests/themes.test.mjs && node tests/lottie.test.mjs && node tests/transitions.test.mjs && node tests/pull-refresh.test.mjs && node tests/id.test.mjs && node tests/daily.test.mjs && node tests/reminders.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "jsdom": "^30.1.2"
+  }
+}
